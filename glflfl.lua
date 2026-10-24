@@ -1527,7 +1527,7 @@ local MainWin = WindUI:CreateWindow({
 })
 local TabSet = MainWin:Tab({Title="翻译设置",Icon="settings"})
 TabSet:Toggle({
-    Title = "神秘汉化(Canvas绘制文字无法翻译)",
+    Title = "神秘汉化(执行后不要给他删掉再重新执行不然会有bug)",
     Default = false,
     Callback = function(state)
         EnableTranslate = state
